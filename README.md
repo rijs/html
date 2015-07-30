@@ -4,4 +4,6 @@
 
 Allows registering HTML Template resources. Must be a plain string, with the name ending in `.html`
 
-`ripple('some.html', file('./templates/some.html'))`
+```js
+ripple('some.html', file('./templates/some.html'))
+```
