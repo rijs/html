@@ -12,5 +12,4 @@ export default function html(ripple){
 }
 
 import includes from 'utilise/includes'
-import log from 'utilise/log'
-log = log('[ri/types/html]')
+var log = require('utilise/log')('[ri/types/html]')
